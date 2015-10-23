@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="myAngularApplication" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Sample Angular Application</title>
+    <!-- <script src="http://apps.bdimg.com/libs/angular.js/1.3.9/angular.js"></script> -->
+    <script src="../lib/angular-1.2.20/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/book/booksController.js"></script>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet"
+</head>
+
+<body ng-controller="booksController">
+
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <h3>{{ message }}</h3>
+
+
+                <h4 ng-controller="booksController as booksCtrl"> {{ booksCtrl.greeting }} </h4>
+
+                <input type="button" ng-click="fetchBooks()" value="Fetch Books" class="btn btn-success">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>ID</th><th>Book Name</th><th>Author Name</th><th>ISBN</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="book in books">
+                            <td>
+                                {{ book.ID}}
+                            </td>
+                            <td>
+                                {{book.BookName}}
+                            </td>
+                            <td>
+                                {{book.AuthorName}}
+                            </td>
+                            <td>
+                                {{book.ISBN}}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

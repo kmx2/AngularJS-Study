@@ -6,19 +6,10 @@
         "id": "crot4lus.brackets-tabs"
     },
     {
-        "id": "deddy.additional-right-click-menu"
-    },
-    {
         "id": "globexdesigns.brackets-jscs"
     },
     {
         "id": "jarradsalmon.rightclickextended"
-    },
-    {
-        "id": "brackets-angularjs-codehints"
-    },
-    {
-        "id": "brackets-pep8"
     },
     {
         "id": "amandeep-multiproject-support"
@@ -27,22 +18,28 @@
         "id": "brackets-flake8"
     },
     {
-        "id": "chrisgriffith.angularmaterialhints"
+        "id": "brackets-angularjs-codehints"
     },
     {
         "id": "brackets-materialangularjs-codehints"
     },
     {
-        "id": "josecols.python-tidy"
+        "id": "brackets-pep8"
     },
     {
-        "id": "open-in-browser"
+        "id": "chrisgriffith.angularmaterialhints"
+    },
+    {
+        "id": "josecols.python-tidy"
     },
     {
         "id": "aivanov.command-line-shortcuts"
     },
     {
         "id": "genuitec.team-extensions"
+    },
+    {
+        "id": "open-in-browser"
     },
     {
         "id": "dnbard.projects"
